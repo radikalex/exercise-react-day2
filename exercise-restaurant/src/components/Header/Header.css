@@ -1,0 +1,15 @@
+nav {
+    height: 80px;
+    color: white;
+    background-color: rgb(44, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav span {
+    font-size: 24px;
+    font-weight: bold;
+}
