@@ -4,7 +4,7 @@ import Counter from './components/Counter/Counter';
 function App() {
   return (
     <div className="App">
-        <Counter initialValue={-1} incValue={2}/>
+        <Counter initialValue={0} incValue={3}/>
     </div>
   );
 }

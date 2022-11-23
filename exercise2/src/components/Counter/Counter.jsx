@@ -13,9 +13,9 @@
 //     };
 //     return (
 //         <div className='container-counter'>
-//             <button onClick={increment}>-</button>
+//             <button onClick={decrement}>-</button>
 //             <span>Counter: {counter}</span>
-//             <button onClick={decrement}>+</button>
+//             <button onClick={increment}>+</button>
 //         </div>
 //     )
 // }
@@ -43,9 +43,9 @@ export class Counter extends Component {
         return (
         <div>
             <div className='container-counter'>
-                <button onClick={this.increment}>-</button>
+                <button onClick={this.decrement}>-</button>
                 <span>Counter: {this.state.counter}</span>
-                <button onClick={this.decrement}>+</button>
+                <button onClick={this.increment}>+</button>
             </div>
         </div>
         )
